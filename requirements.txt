@@ -1,0 +1,15 @@
+# Dependencias principales del paquete
+matplotlib>=3.0.0
+altair>=4.0.0
+pandas>=1.0.0
+numpy>=1.18.0
+
+# Dependencias para la conversión a ASP
+# NOTA: Draco requiere Python >=3.10.0 y <3.12
+# En Mac con Apple Silicon (M1/M2/M3), instalar draco con conda:
+# conda install -c conda-forge draco
+# Como alternativa, el notebook implementa una versión básica sin dependencias
+
+# Otras dependencias útiles
+jupyter>=1.0.0
+ipykernel>=6.0.0
